@@ -54,3 +54,29 @@ Think about how many models you'll need:
 * eg: Users Model, Tasks Model
 Think about the methods you'll need for each model
 * eg: Users Model needs methods for registration/login/logout
+
+## Sprint 5
+Start working on the ROUTES (aka CONTROLLERS).
+
+ROUTES + PostMan (the app) can be used to test your MODELS.
+
+* Think about the kind of requests you'll need to make
+* How are task related pages different from the homepage (if they are)?
+* How many POST routes will I need?
+* How many GET routes will I need?
+* Do I need any PUT or DELETE routes?
+
+## Sprint 6
+Start working on the VIEWS
+
+* What should the homepage look like?
+* What does an authenticated user see?
+* What does a guest see?
+* How are the tasks viewed?
+
+## Sprint 7
+Does it work?
+
+* Test out the user experience.
+* Does it work as expected?
+* Fix any bugs you find in the process.
