@@ -46,3 +46,11 @@ Set a host and port number
 * Create a default (aka index.js) route.
 
 Create a default route that just returns a status of 200 and the text "OK" when a user browses to your site.
+
+## Sprint 4
+Start working on the MODELS. Use your database to determine how to structure these.
+
+Think about how many models you'll need:
+* eg: Users Model, Tasks Model
+Think about the methods you'll need for each model
+* eg: Users Model needs methods for registration/login/logout

@@ -43,7 +43,9 @@ server.listen(port, hostname, () => {
 });
 
 const rootController = require('./routes/index');
-const usersController = require("./routes/users");
+const usersController = require("./routes/signup");
+const tasksController = require("./routes/tasks");
 
 app.use('/', rootController); // Home screen with login
-app.use('/users', usersController);
+app.use('/signup', usersController);
+app.use('/tasks', tasksController);

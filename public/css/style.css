@@ -1,0 +1,15 @@
+.section {
+    padding: 1.5rem 1.5rem;
+}
+
+.hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.button.is-success {
+    background-color: #b9ad9b;
+    border-color: transparent;
+    color: #000000;
+}
