@@ -1,6 +1,6 @@
 <section class="section">
     <div class="hero-body">
-        <img src="./images/task.png" alt="Crisp home office">
+        <img src="/images/task.png" alt="Crisp home office">
     </div>
 </section>
 
@@ -64,3 +64,38 @@
         </div>
     </form>
 </section>
+
+${data.map(task => {
+    return ` 
+        <section class="section">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="title">
+                                ${task.task_title}
+                            </p>
+                            <p class="subtitle">
+                                <ul>
+                                    <li>Category: <strong>${task.category}</strong></li>
+                                    <li>Details: <strong>${task.task_details}</strong></li>                                </ul>
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <button class="button is-success">
+                                    <span type="boolean" name="task_status" value="True">Mark Complete</span>
+                                </button>
+                            </p>
+                            <p class="card-footer-item">
+                                <span>
+                                    Task is due <strong>${task.due_date}</strong>
+                                </span>
+                            </p>
+                        </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+`}).join('')}
